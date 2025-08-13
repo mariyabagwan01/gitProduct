@@ -14,9 +14,16 @@ public class Product {
 	private int productYear;
 	private String productBarcode;
 	private String department;
+	private String adress;
 	
 	public int getProductId() {
 		return productId;
+	}
+	public String getAdress() {
+		return adress;
+	}
+	public void setAdress(String adress) {
+		this.adress = adress;
 	}
 	public void setProductId(int productId) {
 		this.productId = productId;
