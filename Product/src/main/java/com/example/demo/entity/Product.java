@@ -14,24 +14,14 @@ public class Product {
 	private int productYear;
 	private String productBarcode;
 	private String department;
-	private String agfsfsa;
 	
 	
-	public String getAgfsfsa() {
-		return agfsfsa;
-	}
-	public void setAgfsfsa(String agfsfsa) {
-		this.agfsfsa = agfsfsa;
-	}
+	
+	
 	public int getProductId() {
 		return productId;
 	}
-//	public String getAdress() {
-//		return adress;
-//	}
-//	public void setAdress(String adress) {
-//		this.adress = adress;
-//	}
+
 	public void setProductId(int productId) {
 		this.productId = productId;
 	}
